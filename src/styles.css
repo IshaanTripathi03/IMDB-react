@@ -1,0 +1,22 @@
+.Movie-Card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 5px 5px rgb(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.Movie-Grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+}
+
+.Image-Wrapper {
+  width: 100%;
+  height: 400px;
+}
+
+.Image-Wrapper > img {
+  width: 100%;
+  height: 100%
+}
